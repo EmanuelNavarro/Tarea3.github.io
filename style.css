@@ -75,7 +75,7 @@ header #img2
     font-family: Verdana, Tahoma, sans-serif, Helvetica, sans-serif;
     width: 100%;
     height: 100%;
-    padding: 0;
+    padding: 20px;
     font-weight: hold;
     display: flex;
     align-items: center;
@@ -88,20 +88,6 @@ header #img2
 #menuNAV ul li
 {
     display: inline-block;
-}
-
-#menuNAV ul li a
-{
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    padding: 5px 40px;
-}
-
-#menuNAV ul li a:hover
-{
-    background-color: #42b881;
-    border-radius: 20px 20px 20px 20px;
 }
 
 #mainID
@@ -131,9 +117,25 @@ header #img2
     text-align: center;
 }
 
+.primarySECTION
+{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    display: flex;
+    position:relative;
+    color: #fff;
+    text-align: center;
+}
+
 #imgFab
 {
     border-radius: 80px 80px 80px 80px;
+}
+
+#imgFab2
+{
+    border-radius: 40px 40px 40px 40px;
 }
 
 #imgFig
@@ -141,14 +143,49 @@ header #img2
     border-radius: 80px 80px 80px 80px;
 }
 
+#videosFig
+{
+    padding: 0px 0px 0px 120px;
+}
+
+#videosRod
+{
+    padding: 0px 0px 0px 120px;
+}
+
+#videosLi
+{
+    padding: 0px 0px 0px 120px;
+}
+
+#videosFab
+{
+    padding: 0px 0px 0px 80px;
+}
+
+#imgFig2
+{
+    border-radius: 40px 40px 40px 40px;
+}
+
 #imgMar
 {
     border-radius: 80px 80px 80px 80px;
 }
 
+#imgMar2
+{
+    border-radius: 40px 40px 40px 40px;
+}
+
 #imgRod
 {
     border-radius: 80px 80px 80px 80px;
+}
+
+#imgRod2
+{
+    border-radius: 40px 40px 40px 40px;
 }
 
 #sectionMAIN
