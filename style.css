@@ -104,6 +104,10 @@ header #img2
     float: left;
     background-color: #0E1E45;
     border-radius: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .primaryASIDE
@@ -143,25 +147,11 @@ header #img2
     border-radius: 80px 80px 80px 80px;
 }
 
-#videosFig
+.video
 {
-    padding: 0px 0px 0px 120px;
+
 }
 
-#videosRod
-{
-    padding: 0px 0px 0px 120px;
-}
-
-#videosLi
-{
-    padding: 0px 0px 0px 120px;
-}
-
-#videosFab
-{
-    padding: 0px 0px 0px 80px;
-}
 
 #imgFig2
 {
